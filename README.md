@@ -44,11 +44,11 @@ Pemenang klasifikasi diuji secara buta menggunakan environment Data Uji (X_test)
 ## ⚠️ Evaluasi Kritis: Analisis False Negative
 Di dalam sistem rekayasa medis, mengandalkan Akurasi Global adalah kecacatan logika. Berdasarkan Confusion Matrix dari model pemenang (Random Forest):
 
-    - Recall untuk Keganasan (Label 1) = 0.93 (93%)
+- Recall untuk Keganasan (Label 1) = 0.93 (93%)
 
-    - Dari populasi uji sebanyak 43 pasien pengidap kanker ganas, model gagal mengenali 3 pasien (False Negative).
+- Dari populasi uji sebanyak 43 pasien pengidap kanker ganas, model gagal mengenali 3 pasien (False Negative).
 
-    - Kesimpulan Teknikal: Meskipun akurasi global mencapai ~96.5%, membiarkan 3 anomali fatal (False Negative) lolos   menembus sistem membuktikan bahwa model ini memerlukan penyesuaian ambang batas (Threshold Tuning) sebelum layak di-deploy ke lingkungan operasional rumah sakit.
+- Kesimpulan Teknikal: Meskipun akurasi global mencapai ~96.5%, membiarkan 3 anomali fatal (False Negative) lolos   menembus sistem membuktikan bahwa model ini memerlukan penyesuaian ambang batas (Threshold Tuning) sebelum layak di-deploy ke lingkungan operasional rumah sakit.
 
 ## 🚀 Cara Menjalankan Program
 Jalankan skrip ini langsung dari terminal lokal Anda. Pastikan pustaka yang dibutuhkan sudah terinstal.
