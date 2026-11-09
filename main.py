@@ -50,6 +50,8 @@ predict_knn = model_knn.predict(X_test)
 
 result_knn = accuracy_score(y_test, predict_knn)
 
+print(f"Dataset awal:\n {df}")
+print(60*"-=")
 print(f"Tabel data yang siap dipelajari: \n{X}" )
 print(f"Dimensi Data Latih (X_train): {X_train.shape}\n")
 print(f"Dimensi Data Latih (X_test): {X_test.shape}\n")      
