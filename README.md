@@ -13,7 +13,7 @@ Repositori ini berisi seluruh artefak komputasi untuk Tugas Besar UTS Klasifikas
 * `AI-USAGE.md`: Deklarasi transparansi penggunaan alat bantu AI.
 
 ## Cara Menjalankan (Reproduksi Hasil)
-1. Lakukan *clone* repositori ini.
+1. Lakukan *clone* repositori ini: git clone https://github.com/Upitek06/uts_ml_kelompok_05.
 2. Instal dependensi: `pip install -r requirements.txt`
 3. Jalankan Jupyter Notebook secara berurutan mulai dari `01_eda.ipynb` hingga `03_analisis.ipynb`.
 4. Tekan tombol **"Restart and Run All"** pada setiap notebook. Kode akan otomatis mengekstrak metrik evaluasi (F1, CI 95%, Cost) dan visualisasi Confusion Matrix.
