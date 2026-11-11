@@ -6,7 +6,7 @@ Repositori ini berisi seluruh artefak komputasi untuk Tugas Besar UTS Klasifikas
 
 ## Struktur Repositori
 * `data/`: Memuat dataset asli dan `split_uji.csv` (indeks test data yang dikunci).
-  * **Hash MD5 split_uji.csv:** [Isi dengan Hash yang kamu generate dari 01_eda.ipynb]
+  * **Hash MD5 split_uji.csv:** 04ff4689461b2338b4cd22e4a89f8980
 * `notebooks/`: Memuat 3 Jupyter Notebook yang dipecah secara berurutan (01 EDA, 02 Model Pipeline, 03 Analisis Akhir).
 * `laporan/`: Memuat laporan final berformat PDF.
 * `requirements.txt`: Memuat spesifikasi library untuk reproduktibilitas.
