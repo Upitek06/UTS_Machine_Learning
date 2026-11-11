@@ -4,7 +4,12 @@ Folder ini menyimpan dataset yang digunakan untuk melatih dan menguji model klas
 
 ## Sumber Data & Lisensi
 * **Sumber:** Diunduh dari UCI Machine Learning Repository / Kaggle.
-* **Lisensi:** CC0 (Public Domain) / Open Data. Dataset ini bebas digunakan untuk keperluan akademik.
+
+## Cara Mengunduh Data
+Dataset orisinal dapat diunduh secara publik melalui [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic) atau melalui portal Kaggle. Untuk proyek ini, dataset telah diunduh, dibersihkan, dan dikunci pada file `split_uji.csv`.
+
+## Lisensi
+Dataset ini berlisensi **Creative Commons Attribution 4.0 International (CC BY 4.0)** (atau lisensi terbuka akademik UCI). Data ini bebas digunakan untuk keperluan edukasi, riset, maupun komersial dengan syarat memberikan atribusi kepada kreator aslinya (Dr. William H. Wolberg, W. Nick Street, dan Olvi L. Mangasarian dari University of Wisconsin).
 
 ## Kartu Data (Data Card)
 Dataset Breast Cancer Wisconsin (Diagnostic) terdiri dari 569 baris rekam medis pasien. Terdapat 30 fitur numerik yang merepresentasikan karakteristik geometri inti sel (seperti radius, tekstur, perimeter, area), dan 1 kolom target diagnosis yang terbagi menjadi dua kelas: Malignant (ganas) dan Benign (jinak).
